@@ -1,0 +1,73 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:1:1-27:12
+	package
+		ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:2:5-48
+		INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:1:1-27:12
+		INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:1:1-27:12
+		INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:3:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:4:5-68
+	android:name
+		ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:4:22-65
+application
+ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:5:5-25:19
+meta-data#com.google.android.gms.car.application
+ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:7:9-9:59
+	android:resource
+		ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:9:13-56
+	android:name
+		ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:8:13-66
+service#com.example.carradioplayer.shared.MyMusicService
+ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:16:13-76
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON+action:name:android.media.AUDIO_BECOMING_NOISY+action:name:android.media.browse.MediaBrowserService
+ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:19:25-74
+action#android.media.AUDIO_BECOMING_NOISY
+ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:20:25-74
+action#android.media.browse.MediaBrowserService
+ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:21:17-83
+	android:name
+		ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:21:25-80
+uses-sdk
+INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml

@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.carradioplayer.shared"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:3:5-67
+11-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:4:5-68
+12-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:4:22-65
+13
+14    <application>
+14-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:5:5-25:19
+15        <meta-data
+15-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:7:9-9:59
+16            android:name="com.google.android.gms.car.application"
+16-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:8:13-66
+17            android:resource="@xml/automotive_app_desc" />
+17-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:9:13-56
+18
+19        <!--
+20         Main music service, provides media browsing and media playback services to
+21         consumers through MediaBrowserService and MediaSession. Consumers connect to it through
+22         MediaBrowser (for browsing) and MediaController (for playback control)
+23        -->
+24        <service
+24-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:15:9-23:19
+25            android:name="com.example.carradioplayer.shared.MyMusicService"
+25-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:16:13-76
+26            android:exported="true" >
+26-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:17:13-36
+27            <intent-filter>
+27-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MEDIA_BUTTON" />
+28-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:19:17-77
+28-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:19:25-74
+29                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+29-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:20:17-77
+29-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:20:25-74
+30                <action android:name="android.media.browse.MediaBrowserService" />
+30-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:21:17-83
+30-->D:\AndroidStudio\CarRadioPlayer\shared\src\main\AndroidManifest.xml:21:25-80
+31            </intent-filter>
+32        </service>
+33    </application>
+34
+35</manifest>
